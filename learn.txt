@@ -1,1 +1,4 @@
 helloo i wanna tell you like am learning git advanced so stay tuned to more magics to come have a blast one!:)
+git init: which is used to make a repository when normal folder was created
+git status usedto help you know the current branch that you are working with
+git config --global init.defaultBranch main this is used to move our thing from the master to main
