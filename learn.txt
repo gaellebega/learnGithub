@@ -2,3 +2,5 @@ helloo i wanna tell you like am learning git advanced so stay tuned to more magi
 git init: which is used to make a repository when normal folder was created
 git status usedto help you know the current branch that you are working with
 git config --global init.defaultBranch main this is used to move our thing from the master to main
+git checkout -b name of the new branch: we use this to create new branch name;
+git checkout used to switch to the new branch.
