@@ -4,3 +4,38 @@ git status usedto help you know the current branch that you are working with
 git config --global init.defaultBranch main this is used to move our thing from the master to main
 git checkout -b name of the new branch: we use this to create new branch name;
 git checkout used to switch to the new branch.
+
+WHEN YOU HAVE TURNED OFF YOUR LAP
+cd Second-Hand-Marketplace-Platform
+git checkout ishami
+git pull origin ishami
+git add .
+git commit -m "work"
+git push
+Pull before you start, push after you finish
+
+REQUEST THE PR
+
+go on the GitHub
+then create the PR
+from:ishami
+to:frontend
+//i finifhed my work on ishami please review and merge it on frontend
+
+then the code review starts
+
+//approved and with comment Looks good and //REQUEST changes fix the bugs
+
+if changes are required 
+
+git checkeout ishami(the branch am working on)
+
+//fix
+git add .
+git commit -m "fixing all needed"
+git push
+
+//SOMEONE TO MERGE
+merge pull request
+ishami->frontend
+then your codes are now part of the fontend branch
