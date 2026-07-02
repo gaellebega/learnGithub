@@ -44,3 +44,5 @@ then your codes are now part of the fontend branch
 
 //GIT HISTORY
 git log is used to bring back all the github repository
+
+gir revert <the hash of the commit>
