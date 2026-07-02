@@ -6,6 +6,7 @@ git checkout -b name of the new branch: we use this to create new branch name;
 git checkout used to switch to the new branch.
 
 WHEN YOU HAVE TURNED OFF YOUR LAP
+
 cd Second-Hand-Marketplace-Platform
 git checkout ishami
 git pull origin ishami
@@ -39,3 +40,7 @@ git push
 merge pull request
 ishami->frontend
 then your codes are now part of the fontend branch
+
+
+//GIT HISTORY
+git log is used to bring back all the github repository
