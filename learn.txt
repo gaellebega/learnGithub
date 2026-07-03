@@ -70,6 +70,31 @@ git merge brach-name(feature-branch)
 git log --oneline
 //delete the existing branch
 git branch -d brach-name
-
+//push difference
+git push :is used to push to the branch that you are currently working on
+git push -u origin main: is used to push to the branch main
 if you wanna name a brach and then you named it main the gi will say fatal branch already exist cz you already have
-branch main so better name it another name
+branch main so better name it another name used when it is first time pushing the repo,not sure when tracking is set
+
+-u :set up stream
+
+KEY DIFFERENCE
+
+origin main = “do it now”
+-u origin main = “do it now + remember for later”
+//PS FOR THE FIRST TIME YOU CAN MAKE
+you are also allowed to do something like git push origin any-branch-name and then after that you can make the git push
+  
+  PUSH SUMMARY
+git push -u origin main   # first time
+git push                  # every time after
+
+
+git push origin main Meaning:“Push this branch to GitHub right now, but don’t remember anything”
+
+the link between the local repo and the remote repo is called tracking
+with using -u you can after do git push
+without -u you can always have to say git push origin main like always deliver to the main
+
+//GIT Pull
+git pull means get the latest changes from github and then merge into my current branch
