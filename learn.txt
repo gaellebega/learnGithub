@@ -10,6 +10,11 @@ git checkout used to switch to the new branch.
 
 when we use 
 git branch branch-name: this is only used to create the branch but doesn't switch to it
+git brach branch-name
+git switch brach-name
+git switch -c brach-name
+or to sum everything up you can write (git checkout -b brach-name)
+
 
 WHEN YOU HAVE TURNED OFF YOUR LAP
 
