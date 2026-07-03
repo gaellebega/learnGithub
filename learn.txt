@@ -62,3 +62,11 @@ git log --oneline it  is used to view every single line of commit previously mad
 
 the feature branch is what we call the other branches that are created out of the main branch to meannt hey are the sub braches created over the main branch
 
+//TO MERGE
+"first we go back to the main branch"
+git switch main
+git merge brach-name(feature-branch)
+//check the log if you want to
+git log --oneline
+
+git branch -d brach-name
