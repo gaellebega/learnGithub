@@ -1,4 +1,4 @@
-I cuurently am learning git advanced stay tuned to more magics to come have a blast one!:)
+I am currently learning git advanced stay tuned to more magics to come have a blast one!:)
 
 git init: which is used to make a repository when normal folder was created
 git status usedto help you know the current branch that you are working with
@@ -32,7 +32,7 @@ go on the GitHub
 then create the PR
 from:ishami
 to:frontend
-//i finifhed my work on ishami please review and merge it on frontend
+//i finished my work on ishami please review and merge it on frontend
 
 then the code review starts
 
@@ -68,5 +68,8 @@ git switch main
 git merge brach-name(feature-branch)
 //check the log if you want to
 git log --oneline
-
+//delete the existing branch
 git branch -d brach-name
+
+if you wanna name a brach and then you named it main the gi will say fatal branch already exist cz you already have
+branch main so better name it another name
