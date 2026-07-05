@@ -16,12 +16,27 @@ git checkout -b name of the new branch: we use this to create new branch name;
 
 git checkout used to switch to the new branch.
 
+the "orgin " is there to symbolize the full url of the github repo
+
 when we use 
 git branch branch-name: this is only used to create the branch but doesn't switch to it
 git brach branch-name
 git switch brach-name
 git switch -c brach-name
 or to sum everything up you can write (git checkout -b brach-name)
+
+CREATE THE BRANCH FROM ANOTHER BRANCH 
+
+//git branch new-brach where-to-create it from
+git branch new-branch source-branch
+
+GOOD COMMMIT MESSAGE
+
+//be direct
+must sound like an order:
+-improve mobile responsiveness
+-add a/b testing
+make it always answer this question if applied to the codebase this codes will----
 
 
 WHEN YOU HAVE TURNED OFF YOUR LAP
@@ -73,6 +88,7 @@ git log --oneline it  is used to view every single line of commit previously mad
 the feature branch is what we call the other branches that are created out of the main branch to meannt hey are the sub braches created over the main branch
 
 //TO MERGE
+
 "first we go back to the main branch"
 git switch main
 git merge brach-name(feature-branch)
@@ -83,10 +99,10 @@ git branch -d brach-name
 //push difference
 git push :is used to push to the branch that you are currently working on
 git push -u origin main: is used to push to the branch main
-if you wanna name a brach and then you named it main the gi will say fatal branch already exist cz you already have
+if you wanna name a brach and then you named it main the git will say fatal branch already exist cz you already have
 branch main so better name it another name used when it is first time pushing the repo,not sure when tracking is set
 
--u :set up stream
+-u :--set-upstream
 
 KEY DIFFERENCE
 
@@ -107,4 +123,23 @@ with using -u you can after do git push
 without -u you can always have to say git push origin main like always deliver to the main
 
 //GIT Pull
-git pull means get the latest changes from github and then merge into my current branch
+git pull means get the latest changes from github(remote repo) and then merge into my current branch(local repo)
+
+PULL REQUEST
+it lets you share your changes with your team mates for the review and the feedback once approved and merged your changes become the part of the main branch
+
+1.you can click on compare and pull request or you can click on the pull request
+2.new pull request
+3.select the branch you wanna merge from (feature branch)
+4.select the branch you wanna merge to(main branch)
+if changes are good then you can click on the create pull request 
+if the explantion needed you can write what your PR will do then also you can click on the create the pull request
+5. NOw you are good your team lead can read or review your PR made
+ if everything look good they can merge it
+ reaload the browser and merge ourslves
+ merge pull request
+6.confirm merge
+
+to be able to see the changes that are made
+git checkout main to see what we have
+git pull to get what we have on the main branch
