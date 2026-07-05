@@ -1,4 +1,4 @@
-I am currently learning git advanced stay tuned to more magics to come have a blast one!:)
+currently learning git advanced stay tuned to more magics to come have a blast one!:)
 
 git init: which is used to make a repository when normal folder was created
 git status usedto help you know the current branch that you are working with
@@ -46,6 +46,8 @@ git checkeout ishami(the branch am working on)
 git add .
 git commit -m "fixing all needed"
 git push
+
+git checkeout -f main this means go to the branch main even though there is any un committed commits on there
 
 //SOMEONE TO MERGE
 merge pull request
