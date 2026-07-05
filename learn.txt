@@ -1,4 +1,12 @@
 currently learning git advanced stay tuned to more magics to come have a blast one!:)
+git is a tool we used to track the changes
+github is the cloud platform that is used to store the repo online and collaborate with others 
+
+2 types of repository
+
+local repos created mainly using the git init all the changes made there are private until you push them to your repository
+remote repo are version of repo stored using the server like github,gitlab it is used to share the codes between the collaborators
+everyone in the team must have 2 repo the local one and the remote one
 
 git init: which is used to make a repository when normal folder was created
 git status usedto help you know the current branch that you are working with
