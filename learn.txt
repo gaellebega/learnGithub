@@ -104,6 +104,9 @@ branch main so better name it another name used when it is first time pushing th
 
 -u :--set-upstream
 
+git reset --soft commit-hash: this is used to remove every commit after the commit hash so we return to where we were to mean to our commit hash
+git reset --hard commit-hash: this is sed to remove every commit and code after the commit hash so that we return to our commit-hash
+
 KEY DIFFERENCE
 
 origin main = “do it now”
